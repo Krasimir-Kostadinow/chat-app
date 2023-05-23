@@ -1,13 +1,20 @@
 import React from "react";
 import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";
+import Cookies from 'universal-cookie';
+const cookies = new Cookies();
 
 export const Auth = () => {
-
     const signInWithGoogle = async () => {
-      const result = await signInWithPopup(auth, provider);
-      console.log(result);
+        try {
+            const result = await signInWithPopup(auth, provider);
+            cookies.set('auth-token', result.user.stsTokenManager.refreshToken);
+        } catch (error) {
+            console.error(error);
+        }
     }
+    
+
 
     return (
         <div className="auth">

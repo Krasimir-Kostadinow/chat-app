@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.room {
+max-width: 100%;
+}
+
+.label-room {
+text-align: center;
+  font-size: 25px;
+
+}
+
+.input-room {
+  width: 160px;
+  height: 25px;
+  margin: 10px 16px;
+  border-radius: 8px;
+  border: solid 2px rgb(37, 90, 234);
+}
+
+.btn-room {
+  width: 160px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+  border:solid 2px rgb(37, 90, 234);
+  background-color: rgb(37, 90, 234);
+  color: white;
+  border-radius: 6px;
+}
+
+.btn-room:hover {
+  color:rgb(37, 90, 234);
+  background-color: white;
+  cursor: pointer;
 }
