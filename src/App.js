@@ -8,7 +8,7 @@ function App() {
   const [isAuth, setIsAuth] = useState(cookies.get('auth-token'));
   const [room, setRoom] = useState(null);
   const roomInputRef = useRef(null);
-  console.log(isAuth);
+// delete console.log
 
   if (!isAuth) {
     return (
