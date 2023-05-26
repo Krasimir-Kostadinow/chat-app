@@ -53,6 +53,7 @@ text-align: center;
   margin: 10px 16px;
   border-radius: 8px;
   border: solid 2px rgb(37, 90, 234);
+  outline: none;
 }
 
 .btn-room {

@@ -1,0 +1,40 @@
+.chat-app {
+    max-width: 100%;
+}
+
+.title-room {
+    text-align: center;
+    color: rgb(37, 90, 234);
+}
+
+.form-chat {
+    width: 800px;
+    margin: auto;
+}
+
+.new-message-input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(37, 90, 234);
+    border-radius: 6px;
+    margin: 20px 20px;
+    outline: none;
+    
+}
+
+.btn-send {
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border: 2px solid rgb(37, 90, 234);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(37, 90, 234);
+    
+}
+
+.btn-send:hover {
+    background-color: white;
+    color:rgb(37, 90, 234);
+}
