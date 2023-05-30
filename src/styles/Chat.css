@@ -88,10 +88,13 @@
     height: 25px;
 }
 
-.chat-box .messages .img .title-msg {
-    color: red;
+.chat-box .messages .title-msg {
+    color: #2da959
 }
 
+.chat-box .messages .content-msg {
+    color: rgb(14, 13, 13)
+}
 .chat-box .input-holder {
     display: flex;
     flex-flow: column wrap;
